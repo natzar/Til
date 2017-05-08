@@ -8,3 +8,6 @@ Today I learned...
 #### 2016-11-15 LocalStorage and sessionStorage both extend Storage. There is no difference between them except for the intended "non-persistence" of sessionStorage. 
 #### 2017-03-07 There is no need to use JSON.parse from Javascript, if you are sending json content from server with content-type=application/json. Automatically parsed.
 #### 2017-03-28 PHP Parse CSV with a single line directly from $_FILES: $csvAsArray = array_map('str_getcsv', file($file['tmp_name']));
+
+#### 2017-05-08 POST a FILE using CURL => $args['file'] = new CurlFile('Z_moustache.jpg', 'image/png', 'Z_moustache.jpg');
+curl_setopt($ch, CURLOPT_POSTFIELDS, $args);
