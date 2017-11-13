@@ -16,3 +16,5 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $args);
 #### 2017-06-20 Elasticsearch + Kibana Hello World
 
 #### 2017-09-29 Htaccess Redirect including query string. /search will be getting ? GET parameters. RewriteRule ^([a-z]*)/search$ index.php?lang=$1&p=search&m=index&%{QUERY_STRING} 
+
+#### 2017-11-13 Add rel="noopener noreferrer" to target="_blank" links to prevent pishing and to prevent window.opener.location disclosing details of referrer page.
