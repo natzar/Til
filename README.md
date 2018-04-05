@@ -18,3 +18,5 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $args);
 #### 2017-09-29 Htaccess Redirect including query string. /search will be getting ? GET parameters. RewriteRule ^([a-z]*)/search$ index.php?lang=$1&p=search&m=index&%{QUERY_STRING} 
 
 #### 2017-11-13 Add rel="noopener noreferrer" to target="_blank" links to prevent pishing and to prevent window.opener.location disclosing details of referrer page.
+
+#### 2018-4-5 Easy install of email server, dovecot + sendmail. Be sure to have 127.0.0.1 localhost localhost.localdomain yourdomain.com in /etc/hosts !!!!
