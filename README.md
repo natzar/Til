@@ -20,3 +20,5 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $args);
 #### 2017-11-13 Add rel="noopener noreferrer" to target="_blank" links to prevent pishing and to prevent window.opener.location disclosing details of referrer page.
 
 #### 2018-4-5 Easy install of email server, dovecot + sendmail. Be sure to have 127.0.0.1 localhost localhost.localdomain yourdomain.com in /etc/hosts !!!!
+
+#### 2018-06-01 Setting up CI/CD from scratch with Jenkins and Bitbucket.
