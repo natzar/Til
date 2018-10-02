@@ -22,3 +22,11 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $args);
 #### 2018-4-5 Easy install of email server, dovecot + sendmail. Be sure to have 127.0.0.1 localhost localhost.localdomain yourdomain.com in /etc/hosts !!!!
 
 #### 2018-06-01 Setting up CI/CD from scratch with Jenkins and Bitbucket.
+### 2018-10-02 Waiting for jQuery to be ready later in the same document.
+function defer(method) {
+    if (window.$) {
+        method();
+    } else {
+        setTimeout(function() { defer(method) }, 50);
+    }
+}
