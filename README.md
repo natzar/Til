@@ -30,3 +30,5 @@ function defer(method) {
         setTimeout(function() { defer(method) }, 50);
     }
 }
+
+#### 2018-11-21 Into QA Testing. window.onError catches console output and exceptions. Working inside an iframe too.
